@@ -1,5 +1,6 @@
 # 👾 bisonbackup.gitutils
 BisonBackup modules for interacting with Git repositories
+
 *Can't name the pack just ".git" cuz thats the suffix of every Git repo...*
 
 This module package is a part of the BisonBackup project. For more information about the project and detailed usage instructions, please refer to the [project site](https://github.com/SilverLPs/BisonBackup).
