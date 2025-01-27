@@ -18,11 +18,11 @@ Before using the modules in this package, please ensure that the listed software
 ## Modules
 Below is a list of all modules currently included in this package, along with their respective parameters:
 
-**mirror** - Mirrors an entire Git repository via HTTPS, including all its contents.
-- SOURCE = The URL of the remote repository. Example: "https://github.com/SilverLPs/BisonBackup.git"
-- DESTINATION = The local path where the mirrored repository will be saved.
-- USERNAME = The username for authentication with the remote repository (optional).
-- PAT = The password or personal access token (PAT) for authentication with the remote repository (optional).
+**mirror** - Mirrors entire Git repositories via HTTPS, including all their contents.
+- SOURCE = The URL of a single remote repository or the path to a text file containing multiple repository URLs. Example: "https://github.com/SilverLPs/BisonBackup.git"
+- DESTINATION = The local directory where the mirrored repositories will be saved. A separate folder will be automatically created for each repository.
+- USERNAME = The username for authentication with the remote repositories (optional).
+- PAT = The password or personal access token (PAT) for authentication with the remote repositories (optional).
 
 ---
 
